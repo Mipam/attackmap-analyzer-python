@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed — SDK v2
+- SDK v2: declare extraction protocol 2.0.
+- Depends on `attackmap>=1.5.1,<2.0.0` (replaces `attackmap>=0.6.0,<1.0.0`). Protocol-1.0 plugins keep loading via core's v1 adapter.
+
 ## [0.2.1] - 2026-11-14
 
 ### Changed — packaging
